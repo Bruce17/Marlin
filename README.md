@@ -10,6 +10,13 @@
 Additional documentation can be found at the [Marlin Home Page](http://marlinfw.org/).
 Please let us know if Marlin misbehaves in any way. Volunteers are standing by!
 
+
+## Adjustments
+
+The repository contains the settings required to build marlin for an Ender 2 on a BigTreeTech SKR v1.4 mainboard.
+See [Marlin/Configuration.h](Marlin/Configuration.h) and [Marlin/Configuration_adv.h](Marlin/Configuration_adv.h) for more details.
+
+
 ## Marlin 2.0
 
 Marlin 2.0 takes this popular RepRap firmware to the next level by adding support for much faster 32-bit and ARM-based boards while improving support for 8-bit AVR boards. Read about Marlin's decision to use a "Hardware Abstraction Layer" below.
