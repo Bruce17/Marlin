@@ -42,6 +42,9 @@ applet/
 *.ii
 *.swp
 tags
+.pio
+.vscode
+*.code-workspace
 
 #
 # C++
