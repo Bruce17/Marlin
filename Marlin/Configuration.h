@@ -745,10 +745,8 @@
  *
  * => need to adjust X_MICROSTEPS, Y_MICROSTEPS, Z_MICROSTEPS in configuration_adv.h as well!
  */
-// Ender 2 defaults -> seems not to work with BigTreeTech SKR v1.4!
-// #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 93 }
-// Adjusted settings by measurement -> roughly defaults divided by 4
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 21.00, 19.70, 102.00, 24.90 }
+// Ender 2 defaults
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 93 }
 
 /**
  * Default Max Feed Rate (mm/s)
